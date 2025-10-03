@@ -34,7 +34,7 @@ a {
 p {
   margin-bottom: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, b {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
@@ -857,6 +857,12 @@ body.offcanvas {
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
+
+.blog-img img {
+  width: 100%;       /* full width of container */
+  height: 180px;     /* fixed height */
+  object-fit: cover; /* crop to fill, keeps aspect ratio */
+}
 
 .blog-entry {
   width: 100%;
